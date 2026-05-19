@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Échecs — Cours d'échecs en Gironde</title>
+<meta name="description" content="Samuel Alcindor, fondateur de Samuel Échecs, propose des cours d'échecs hebdomadaires en écoles et clubs en Gironde. Initiation, perfectionnement, programme scolaire. +20 établissements depuis 2018.">
+<meta name="keywords" content="Samuel Alcindor, Samuel Échecs, cours d'échecs, cours d'échecs Bordeaux, cours d'échecs Gironde, cours d'échecs Talence, cours d'échecs Pessac, initiation échecs enfants, cours échecs école primaire, cours échecs collège, animateur échecs scolaire, entraîneur échecs, apprendre les échecs, activité parascolaire échecs, joueur FIDE, compétiteur échecs, développement cognitif, logique concentration enfants, samuel.echecs">
+<meta name="author" content="Samuel Alcindor — Samuel Échecs">
+<meta name="robots" content="index, follow">
+<meta name="google-site-verification" content="qPVXIH3h2k7ZxFlXvHas2u5kxLYA0bB9-gVB2aL0VmY" />
+<link rel="canonical" href="https://samuel-echecs.fr/">
+<link rel="icon" type="image/svg+xml" href="logos/knight.svg">
+
+<!-- Open Graph (réseaux sociaux) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://samuel-echecs.fr/">
+<meta property="og:title" content="Samuel Échecs — Cours d'échecs en Gironde">
+<meta property="og:description" content="Samuel Alcindor propose des cours d'échecs parascolaires en Gironde. Idéal pour les APEL. +4 000 élèves formés, diplômé FFE, 0 frais pour l'école.">
+<meta property="og:image" content="https://samuel-echecs.fr/samuel.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Samuel Alcindor, enseignant d'échecs en Gironde — Samuel Échecs">
+<meta property="og:locale" content="fr_FR">
+
+<!-- Données structurées Schema.org -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Samuel Échecs",
+    "alternateName": ["samuel.echecs", "Samuel Alcindor Échecs"],
+    "description": "Samuel Alcindor, fondateur de Samuel Échecs, propose des cours d'échecs hebdomadaires pour écoles et clubs en Gironde.",
+    "url": "https://samuel-echecs.fr",
+    "email": "samuel.echecs@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "12 Impasse Carros",
+      "postalCode": "33400",
+      "addressLocality": "Talence",
+      "addressCountry": "FR"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Samuel Alcindor"
+    },
+    "areaServed": ["Gironde", "Bordeaux", "Talence", "Pessac", "Bordeaux Métropole"],
+    "serviceType": "Cours d'échecs",
+    "priceRange": "€€",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "21"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Samuel Alcindor",
+    "url": "https://samuel-echecs.fr",
+    "email": "samuel.echecs@gmail.com",
+    "jobTitle": "Enseignant d'échecs",
+    "description": "Samuel Alcindor est un joueur d'échecs FIDE et fondateur de Samuel Échecs, proposant des cours d'échecs en Gironde depuis 2018. Initiation, perfectionnement, programme scolaire et parascolaire.",
+    "knowsAbout": ["échecs", "cours d'échecs", "initiation aux échecs", "pédagogie échecs", "compétition FIDE", "activité parascolaire", "développement cognitif"],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Enseignant et animateur d'échecs",
+      "occupationLocation": [
+        { "@type": "City", "name": "Talence" },
+        { "@type": "City", "name": "Bordeaux" },
+        { "@type": "City", "name": "Pessac" },
+        { "@type": "AdministrativeArea", "name": "Gironde" }
+      ]
+    },
+    "sameAs": [
+      "https://ratings.fide.com/profile/36066320"
+    ]
+  }
+]
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#accueil" class="nav-logo">
+    <img src="logos/knight.svg" alt="Cavalier échecs">
+    Samuel<span>.</span>Échecs
+  </a>
+  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#accueil" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">Accueil</a></li>
+    <li><a href="#benefices" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">Bienfaits</a></li>
+    <li><a href="#temoignages" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">Témoignages</a></li>
+    <li><a href="#profil" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">Établissements</a></li>
+    <li><a href="#tarifs" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">Tarifs</a></li>
+    <li><a href="faq.html" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">FAQ</a></li>
+    <li><a href="palmares.html" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">Palmarès</a></li>
+    <li><a href="contact.html" class="nav-cta" onclick="document.querySelector('.nav-links').classList.remove('open');document.querySelector('.nav-toggle').classList.remove('open')">Contactez-moi</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="accueil" class="hero" style="min-height:auto;">
+  <div class="hero-right" style="min-height:auto;">
+    <p class="hero-eyebrow fade-up" style="color:var(--gold);">Activité parascolaire</p>
+    <h1 class="fade-up delay-1" style="color:var(--white);">
+      Un atout pour vos enfants,<br>
+      <em>une fierté pour votre APEL.</em>
+    </h1>
+  </div>
+  <div class="hero-left fade-up delay-2">
+    <p class="hero-desc" style="margin:0 0 2rem;">
+      Proposez les échecs dans votre école grâce à votre association de parents. Un programme structuré, animé par <strong>Samuel Alcindor</strong>, enseignant diplômé FFE — Un impact réel sur la concentration et la réussite scolaire.
+    </p>
+    <a href="contact.html" class="btn-discover">Séance découverte</a>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat-item">
+    <span class="stat-number">+7 ans</span>
+    <span class="stat-label">d'expérience pédagogique</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">DIFFE</span>
+    <span class="stat-label">Diplômé de la FFE</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">+20</span>
+    <span class="stat-label">établissements et clubs</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">+4 000</span>
+    <span class="stat-label">élèves formés</span>
+  </div>
+</div>
+
+<!-- BÉNÉFICES + CTA CÔTE À CÔTE -->
+<div class="split-section" id="benefices">
+  <div class="benefits-section">
+    <div class="benefits-left">
+      <p class="section-eyebrow">Ce que les échecs apportent</p>
+      <h2 class="section-title">Un atout concret pour votre enfant</h2>
+      <div class="divider"></div>
+      <ul class="benefits-list">
+        <li>
+          <div class="benefit-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+          <span class="benefit-label">Concentration et gestion des émotions</span>
+        </li>
+        <li>
+          <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17H8v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7z"/></svg></div>
+          <span class="benefit-label">Raisonnement logique et mathématiques</span>
+        </li>
+        <li>
+          <div class="benefit-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          <span class="benefit-label">Mémoire et organisation</span>
+        </li>
+        <li>
+          <div class="benefit-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+          <span class="benefit-label">Persévérance face à l'échec</span>
+        </li>
+        <li>
+          <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+          <span class="benefit-label">Des moments partagés en famille</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="split-cta">
+    <p class="split-eyebrow">Votre APEL · Rentrée 2026</p>
+    <p class="split-title">Donnez deux coups d'avance<br>à vos enfants.</p>
+    <a href="contact.html" class="btn-discover">Séance découverte</a>
+  </div>
+</div>
+
+<!-- PHOTO + BIO CÔTE À CÔTE -->
+<div class="hero" style="min-height:auto;padding-top:0;">
+  <div class="hero-right" style="min-height:auto;">
+    <div class="hero-bg-text">♟</div>
+    <div class="board-container">
+      <picture>
+        <source srcset="samuel.webp" type="image/webp">
+        <img src="samuel.jpg" class="hero-photo" width="320" height="320" alt="Samuel Alcindor en compétition" loading="lazy">
+      </picture>
+      <div class="board-label">
+        <div class="elo">Samuel Alcindor</div>
+        <p class="board-subtitle" style="color:var(--gold);">Arena FIDE Master · AFM 2026</p>
+        <p class="board-subtitle">Diplôme d'Initiateur de la Fédération</p>
+        <p class="board-since">Intervenant depuis 2018</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-left" style="background:var(--cream);justify-content:center;">
+    <p class="section-eyebrow" style="color:var(--gold-text);">À propos</p>
+    <h2 class="section-title" style="color:var(--dark);">Passionné d'échecs,<br><em>enseignant par vocation</em></h2>
+    <div class="divider"></div>
+    <p class="bio-body">Depuis 2018, j'interviens dans les écoles, collèges et clubs pour transmettre ma passion pour les échecs. Titulaire du Diplôme d'Initiateur de la Fédération Française des Échecs (DIFFE), j'ai accompagné plus de 4 000 élèves à travers plus de 20 établissements partenaires.</p>
+    <p class="bio-body">Mon approche repose sur une pédagogie bienveillante et progressive, adaptée à chaque profil — débutant ou joueur confirmé, enfant ou adulte. Les échecs ne sont pas seulement un jeu : ils forgent la concentration, la pensée stratégique et la confiance en soi.</p>
+    <p class="bio-body">En parallèle, je me mesure à des joueurs du monde entier lors de tournois FIDE — 30 récompenses sur plus de 50 compétitions, en France et à l'international. En 2026, la FIDE m'a officiellement décerné le titre d'<strong>Arena FIDE Master (AFM)</strong>.</p>
+    <a href="palmares.html" class="testimonial-cta-link bio-link" style="margin-top:1.5rem;display:inline-block;">Voir le palmarès complet →</a>
+  </div>
+</div>
+
+<!-- TÉMOIGNAGES -->
+<section id="temoignages" class="testimonials-section">
+  <p class="section-eyebrow">Ils témoignent</p>
+  <h2 class="section-title">Ce qu'ils en disent</h2>
+  <p class="testimonials-rating"><strong>★ 4.8 / 5</strong> — 21 témoignages vérifiés</p>
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card reveal">
+      <span class="testimonial-quote-mark">"</span>
+      <p class="testimonial-text">Samuel est très patient et trouve toujours le moyen d'expliquer avec le sourire. C'est très agréable d'apprendre avec lui !</p>
+      <div class="testimonial-author">
+        <span class="testimonial-name">Andy Zébus</span>
+        <span class="testimonial-role">Médiateur numérique — PXLC · ★★★★★</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card reveal">
+      <span class="testimonial-quote-mark">"</span>
+      <p class="testimonial-text">Magnifique expérience, qui restera gravée dans ma mémoire.</p>
+      <div class="testimonial-author">
+        <span class="testimonial-name">Al Ali</span>
+        <span class="testimonial-role">Élève — Échiquier Tressois · ★★★★★</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card reveal">
+      <span class="testimonial-quote-mark">"</span>
+      <p class="testimonial-text">Samuel est un très bon animateur d'échecs. Il fait preuve de pédagogie, de bienveillance et de professionnalisme. Ses cours sont bien structurés. Mon fils aime beaucoup y participer.</p>
+      <div class="testimonial-author">
+        <span class="testimonial-name">Maria Ferekidou</span>
+        <span class="testimonial-role">Parent d'élève — École Pluie de Roses · ★★★★★</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card reveal">
+      <span class="testimonial-quote-mark">"</span>
+      <p class="testimonial-text">J'ai à la fois été élève et parent d'élève de Samuel. Il a la capacité d'adapter son discours à l'âge de ses élèves, à leur niveau, à leur profil de joueur. Sa pédagogie est progressive et cohérente si bien que les progrès sont visibles rapidement.</p>
+      <div class="testimonial-author">
+        <span class="testimonial-name">Mélanie Torres</span>
+        <span class="testimonial-role">Parent et élève — Arsenal Échecs Le Robert · ★★★★★</span>
+      </div>
+    </div>
+
+  </div>
+  <div class="testimonials-cta">
+    <a href="temoignages.html" class="testimonial-cta-link">Voir tous les témoignages →</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0vc4M7Lj5JU-qqFHbBBxW45tlw8_vRX628QadvxFnqVL1uw/viewform" target="_blank" rel="noopener" class="testimonial-cta-link">Partager votre expérience →</a>
+  </div>
+</section>
+
+<!-- PROFIL -->
+<section id="profil" class="profile-section">
+  <div class="profile-info">
+    <div>
+      <p class="section-eyebrow">Partenaires &amp; établissements</p>
+      <h2 class="profile-name">Ils m'ont fait confiance</h2>
+      <div class="divider"></div>
+    </div>
+    <p class="profile-text">
+      Plus de 20 établissements m'ont fait confiance depuis 2018.
+    </p>
+    <div class="partners-grid">
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/tressois.png" alt="Échiquier Tressois" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">Échiquier Tressois</p>
+      </div>
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/arsenal.jpg" alt="Arsenal Échecs" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">Arsenal Échecs</p>
+      </div>
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/petit-chateau.jpg" alt="Petit Château de Thérèse" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">Petit Château de Thérèse</p>
+      </div>
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/pessac.png" alt="Club Échecs Pessac" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">Club Échecs Pessac</p>
+      </div>
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/ndd.png" alt="N.-D. de la Délivrande" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">N.-D. de la Délivrande</p>
+      </div>
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/pluie-de-roses.png" alt="École Pluie de Roses" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">École Pluie de Roses</p>
+      </div>
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/nardal.png" alt="Lycée Paulette Nardal" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">Lycée Paulette Nardal</p>
+      </div>
+      <div class="partner-card reveal">
+        <div class="partner-logo-wrap">
+          <img src="logos/saint-genes.png" alt="Collège Saint-Genès" class="partner-logo" loading="lazy" width="80" height="80">
+        </div>
+        <p class="partner-name">Collège Saint-Genès</p>
+      </div>
+    </div>
+    <a href="confiance.html" class="testimonial-cta-link bio-link">Voir tous les établissements →</a>
+  </div>
+</section>
+
+<!-- PROCESS APEL -->
+<section class="process-section">
+  <p class="section-eyebrow">Comment ça marche</p>
+  <h2 class="section-title">En 3 étapes, c'est lancé.</h2>
+  <p class="process-subtitle">Aucune démarche complexe. Votre APEL vote, Samuel arrive.</p>
+  <div class="process-grid">
+    <div class="process-item reveal">
+      <div class="process-number">01</div>
+      <p class="process-title">Vous votez en AG</p>
+      <p class="process-desc">Proposez l'activité échecs à votre association. Un vote suffit pour lancer le projet.</p>
+    </div>
+    <div class="process-item reveal">
+      <div class="process-number">02</div>
+      <p class="process-title">Vous informez les familles</p>
+      <p class="process-desc">Un message dans le carnet ou sur l'ENT — les parents intéressés s'inscrivent directement.</p>
+    </div>
+    <div class="process-item reveal">
+      <div class="process-number">03</div>
+      <p class="process-title">Samuel s'occupe du reste</p>
+      <p class="process-desc">Programme, matériel, séances hebdomadaires — tout est pris en charge. Aucune gestion pour votre APEL.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TARIFS -->
+<section id="tarifs" class="pricing-section">
+  <p class="section-eyebrow">Tarif · APEL</p>
+  <h2 class="section-title">Proposez les échecs.<br><em>Samuel fait le reste.</em></h2>
+  <p class="section-subtitle">Un vote en AG, une communication aux familles, et c'est lancé — aucune gestion administrative pour votre APEL.</p>
+  <div class="pricing-card reveal">
+    <span class="pricing-amount">150 €</span>
+    <span class="pricing-period">par enfant · année scolaire · soit moins de 5 € la séance</span>
+    <ul class="pricing-features">
+      <li>Cours hebdomadaires sur toute l'année scolaire</li>
+      <li>Programme structuré, adapté au niveau de chaque élève</li>
+      <li>Matériel neuf et de qualité fourni</li>
+      <li>Groupes de 20 enfants maximum</li>
+      <li>Encadrement par un enseignant diplômé FFE</li>
+    </ul>
+    <p class="pricing-note">
+      Votre APEL propose l'activité, les familles règlent directement. Aucune gestion administrative pour l'APEL ni pour l'établissement.
+    </p>
+    <a href="contact.html" class="btn-primary btn-full">Je représente une APEL — Parlons-en</a>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <a href="index.html" class="logo">
+    <img src="logos/knight.svg" alt="Samuel Alcindor">
+    Samuel<span>.</span>Échecs
+  </a>
+  <p>Par <strong>Samuel Alcindor</strong> — <a href="tel:+33686103943" style="color:inherit;opacity:0.7;">06 86 10 39 43</a> · <a href="mailto:samuel.echecs@gmail.com" style="color:inherit;opacity:0.7;">samuel.echecs@gmail.com</a></p>
+  <p>© 2026 Samuel Échecs — <a href="mentions-legales.html" style="color:inherit;opacity:0.7;text-decoration:none;">Mentions légales</a></p>
+</footer>
+
+<script>
+  // Scroll reveal
+  (function() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  })();
+
+  // Badge urgence persistant
+  (function() {
+    const key = 'urgency_slots_2627';
+    const max = 5;
+    const stored = localStorage.getItem(key);
+    let slots = stored ? parseInt(stored) : max;
+    if (!stored) {
+      localStorage.setItem(key, max);
+    } else if (slots > 1 && !sessionStorage.getItem('visited')) {
+      slots = Math.max(1, slots - 1);
+      localStorage.setItem(key, slots);
+    }
+    sessionStorage.setItem('visited', '1');
+    const badge = document.querySelector('.urgency-badge');
+    if (badge) badge.textContent = slots;
+  })();
+</script>
+
+<!-- WHATSAPP FLOTTANT -->
+<a href="https://wa.me/33686103943" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contacter sur WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+</body>
+</html>
